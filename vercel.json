@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/bot:token/:path*", "destination": "/api?path=bot:token/:path*" }
+  ]
+}
